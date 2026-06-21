@@ -5,7 +5,7 @@ function random(min, max) {
 var t1 = prompt("Di un dia de la semana: ")
 var t2 = prompt("Di una ciudad: ")
 var t3 = prompt("Di un premio: ")
-var t4 = prompt("Di todos tus amigos/compañeros: ")
+var t4 = prompt("Di todos tus amigos/compañeros solo con espacios entremedio, sin comas: ")
 
 var amigosSeparados = t4.split(" ")
 var numeroAmigo = random(0, amigosSeparados.length);
