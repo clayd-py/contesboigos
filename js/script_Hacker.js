@@ -1,0 +1,12 @@
+var t1 = prompt("Di un nombre de una pagina WEB: ");
+var t2 = prompt("Di un nombre de una red social: ");
+var t3 = prompt("Di tu nombre: ");
+var t4 = prompt("Di un nombre de un HACKER: ");
+var conteBoig = t4 + " hackeo en " + t1 + " y dijo a sus amigos por " + t2 + " y estan de acuerdo en hackear a " + t3;
+var conteBoigHTML = document.getElementById("conteBoig");
+conteBoigHTML.textContent = conteBoig;
+//conteBoigHTML.innerHTML = conteBoigHTML;
+//var t5 = prompt("Di pet pet >:));
+console.log(t1);
+console.log(t2);
+alert(conteBoig);

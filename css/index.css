@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #8843F2;
+}
+
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    align-items: center;
+    width: 35vw;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #4cbaff;
+    font-weight: 600;
+    margin-left: 550px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px 0px;
+}
+
+#listaContes{
+    font-size: 30px;
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+}
+li{
+    margin: 5px 0;
+}
+
+.filtro{
+    display: none;
+}
+
+#conteBoig_de.prueba{
+    height: 50px;
+    width: 70px;
+    background-color: lightgreen;
+}
+a{
+    text-decoration: none;
+    color: rgb(144, 223, 255);
+}
+body{
+    font-family: calibri;
+    background-image: url(PEDOOOOOOOOOOOOO.jpg);
+}
+#conteBoig.Hacker{
+    margin-left: 150px;
+}
+
+.sugerencias{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(64, 64, 64);
+    padding: 10px 10px;
+    width: 125px;
+}
