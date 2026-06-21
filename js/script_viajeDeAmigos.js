@@ -8,7 +8,7 @@ var t3 = prompt("Di un premio: ")
 var t4 = prompt("Di todos tus amigos/compañeros solo con espacios entremedio, sin comas: ")
 
 var amigosSeparados = t4.split(" ")
-var numeroAmigo = random(0, amigosSeparados.length);
+var numeroAmigo = random(0, amigosSeparados.length-1);
 var t5 = amigosSeparados[numeroAmigo]
 
 var t6 = prompt("Di un numero: ")
